@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # --- [설정] 본인의 구글 시트 ID를 입력하세요 ---
-SHEET_ID = "여기에_구글_시트_ID_입력" 
+SHEET_ID = 1H2AM6hedW79NkIKzS813eptgbVL0s8ACXwuREEp2kVs
 
 def get_sheet_url(tab_name):
     return f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/gviz/tq?tqx=out:csv&sheet={tab_name}"
